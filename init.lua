@@ -16,6 +16,7 @@ minetest.register_tool("strong_pick:pick_wood", {
 		damage_groups = {fleshy=2},
 		groups = {pickaxe = 1, flammable = 2}
 	},
+	sound = {breaks = "default_tool_breaks"},
 	groups = {pickaxe = 1}
 })
 
